@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f6ebd2f4dbe110104869cc3039961986" label="Baugruppen" max_length="40" name="x_356576_siem_assembly_group" type="collection">
+        <element label="Zusätzliche Bearbeiter" max_length="32" name="additional_editor" reference="imp_user" type="reference"/>
+        <element choice="1" label="Soll-ist-Vergleich" max_length="40" name="create_target_actual_comparison" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Versandhäufigkeit" max_length="40" name="dispatch_frequency" type="choice">
+            <choice/>
+        </element>
+        <element label="Log Versand" max_length="1024" name="log_export" type="string"/>
+        <element label="Name" max_length="248" name="name" type="string"/>
+        <element label="Soll-Bestand Produktion" max_length="1024" name="nominal_stock" type="string"/>
+        <element label="Soll-Bestand Abnahme" max_length="1024" name="nominal_stock_acceptance" type="string"/>
+        <element label="Nummer" max_length="1024" name="number" type="string"/>
+        <element label="Verantwortlicher" max_length="32" name="responsible" reference="imp_user" type="reference"/>
+        <element label="Zeitintervall Logmeldungen" max_length="40" name="time_interval_log" type="integer"/>
+        <index name="index">
+            <element name="additional_editor"/>
+        </index>
+        <index name="index2">
+            <element name="responsible"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b13606f4dba110104869cc30399619b3" label="Überwachungsziele" max_length="40" name="x_356576_siem_profile_monitoring_goal" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Zusätzliche Bearbeiter" max_length="4000" name="additional_editor" reference="imp_user" type="glide_list"/>
+        <element label="Titel" max_length="1024" name="identifier" type="string"/>
+        <element choice="1" label="Überwachung" max_length="40" name="monitoring" type="choice">
+            <choice/>
+        </element>
+        <element label="Überwachungsziel" max_length="32" name="monitoring_goal" reference="x_356576_siem_monitoring_goals" type="reference"/>
+        <element label="Nummer" max_length="48" name="number" type="string"/>
+        <element label="Steckbrief" max_length="32" name="profile" reference="x_356576_siem_profiles" type="reference"/>
+        <element label="Begründung" max_length="1024" name="reason" type="string"/>
+        <element label="Kommentar" max_length="4000" name="reject_reason" type="journal"/>
+        <element choice="2" label="Status" max_length="40" name="state" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="monitoring_goal"/>
+        </index>
+        <index name="index2">
+            <element name="profile"/>
+        </index>
+    </element>
+</database>

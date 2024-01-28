@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0587aefcdbe110104869cc303996197c" label="Komponenten Rolle" max_length="40" name="x_356576_siem_x_component_roles" type="collection">
+        <element label="Auswertungsziel" max_length="32" name="evaluation_target" reference="x_356576_siem_evaluation_target" type="reference"/>
+        <element label="Name" max_length="248" name="name" type="string"/>
+        <index name="index">
+            <element name="evaluation_target"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="SIEM">b8e27726db1000104869cc303996192f</application>
+        <filter/>
+        <name>Komponenten Rolles</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_356576_siem.komponenten_rolle_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-19 16:53:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8808e230db2510104869cc3039961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Komponenten Rolles</sys_name>
+        <sys_package display_value="SIEM" source="x_356576_siem">12bda9b4db6110104869cc30399619e4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SIEM">12bda9b4db6110104869cc30399619e4</sys_scope>
+        <sys_update_name>sys_ui_module_8808e230db2510104869cc3039961952</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-19 16:53:14</sys_updated_on>
+        <table>x_356576_siem_x_component_roles</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

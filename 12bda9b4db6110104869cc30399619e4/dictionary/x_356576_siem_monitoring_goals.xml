@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5edb86f8dba110104869cc3039961984" label="Überwachungsfragen" max_length="40" name="x_356576_siem_monitoring_goals" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element choice="1" label="Kategorie" max_length="40" name="category" type="choice">
+            <choice/>
+        </element>
+        <element label="Beschreibung" max_length="1024" name="description" type="string"/>
+        <element label="Überwachungsziel" max_length="1024" name="name" type="string"/>
+        <element label="Reihenfolge" max_length="40" name="order" type="integer"/>
+    </element>
+</database>

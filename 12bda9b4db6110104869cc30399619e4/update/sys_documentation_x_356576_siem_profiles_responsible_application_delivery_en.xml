@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="responsible_application_delivery" label="Verantwortlicher AB" language="en" table="x_356576_siem_profiles">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>responsible_application_delivery</element>
+            <help/>
+            <hint/>
+            <label>Verantwortlicher AB</label>
+            <language>en</language>
+            <name>x_356576_siem_profiles</name>
+            <plural>Verantwortlicher ABs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-19 12:59:19</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Verantwortlicher AB</sys_name>
+            <sys_package display_value="SIEM" source="x_356576_siem">12bda9b4db6110104869cc30399619e4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SIEM">12bda9b4db6110104869cc30399619e4</sys_scope>
+            <sys_update_name>sys_documentation_x_356576_siem_profiles_responsible_application_delivery_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-19 12:59:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="11dd25f4db6110104869cc30399619ce" extends="task" label="Steckbrief" max_length="40" name="x_356576_siem_profiles" type="collection">
+        <element label="Kommentar" max_length="4000" name="notes" type="journal"/>
+        <element label="Qualitätsstufe" max_length="40" name="quality_gate" type="integer"/>
+        <element label="Anzahl Logfälle" max_length="1024" name="quantity_log_cases" type="string"/>
+        <element label="Related Profile" max_length="32" name="related_profile" reference="x_356576_siem_profiles" type="reference"/>
+        <element label="Vertreter AB" max_length="32" name="representative_application_delivery" reference="sys_user" type="reference"/>
+        <element label="Vertreter Produktion" max_length="32" name="representative_production" reference="imp_user" type="reference"/>
+        <element label="Ersteller" max_length="32" name="responsible" reference="imp_user" type="reference"/>
+        <element label="Verantwortlicher AB" max_length="32" name="responsible_application_delivery" reference="imp_user" type="reference"/>
+        <element label="Verantwortlicher Produktion" max_length="32" name="responsible_production" reference="imp_user" type="reference"/>
+        <element label="Ausnahmegenehmigung" max_length="40" name="special_authorisation" type="boolean"/>
+        <element label="Testbare Auswertungsziele" max_length="1024" name="testable_evaluation_targets" type="string"/>
+        <element label="Titel" max_length="1024" name="title" type="string"/>
+        <element label="Version" max_length="1024" name="version" type="string"/>
+    </element>
+</database>

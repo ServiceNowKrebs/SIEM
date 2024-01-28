@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="825116fcdba110104869cc30399619a8" label="Auswertungsziele" max_length="40" name="x_356576_siem_evaluation_target" type="collection">
+        <element label="Aktiv" max_length="40" name="active" type="boolean"/>
+        <element label="Zusätzlicher Bearbeiter" max_length="4000" name="additional_editor" reference="imp_user" type="glide_list"/>
+        <element label="Gutfälle" max_length="1024" name="cases_of_success" type="string"/>
+        <element label="Change" max_length="1024" name="change" type="string"/>
+        <element choice="2" label="Klassifizierung" max_length="40" name="classification" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Funktionstest möglich" max_length="40" name="functional_test_possible" type="choice">
+            <choice/>
+        </element>
+        <element label="Handlungsanweisung BeMo" max_length="1024" name="instruction_bemo" type="string"/>
+        <element label="Handlungsanweisung FK" max_length="1024" name="instruction_fk" type="string"/>
+        <element label="Begründung nicht testbar" max_length="1024" name="justification_function_test" type="string"/>
+        <element label="Begründung nicht umsetzbar" max_length="1024" name="justification_tech_feasible" type="string"/>
+        <element label="Nummer" max_length="48" name="number" type="string"/>
+        <element label="Steckbrief" max_length="32" name="profile" reference="x_356576_siem_profiles" type="reference"/>
+        <element label="Überwachungsziel" max_length="32" name="profile_monitoring_goal" reference="x_356576_siem_profile_monitoring_goal" type="reference"/>
+        <element label="Kommentar" max_length="4000" name="reject_reason" type="journal"/>
+        <element label="Suchbezeichner Splunk" max_length="1024" name="search_identifier_splunk" type="string"/>
+        <element label="Split Report" max_length="40" name="split_report" type="boolean"/>
+        <element choice="2" label="Status" max_length="40" name="state" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Technisch umsetzbar" max_length="40" name="systags" type="choice">
+            <choice/>
+        </element>
+        <element label="SRPlus Kategorie" max_length="32" name="ticket_category" reference="u_fitsm_srplus_kategoriens" type="reference"/>
+        <index name="index">
+            <element name="profile"/>
+        </index>
+        <index name="index2">
+            <element name="profile_monitoring_goal"/>
+        </index>
+        <index name="index3">
+            <element name="ticket_category"/>
+        </index>
+    </element>
+</database>

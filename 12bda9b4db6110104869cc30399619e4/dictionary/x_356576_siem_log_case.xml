@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="698166f8dbe110104869cc3039961986" label="Logfälle" max_length="40" name="x_356576_siem_log_case" type="collection">
+        <element label="Zusätzlicher Bearbeiter" max_length="4000" name="additional_editor" reference="imp_user" type="glide_list"/>
+        <element label="Baugruppe" max_length="32" name="assembly_group" reference="x_356576_siem_assembly_group" type="reference"/>
+        <element label="Spezifizierung Ereignis" max_length="1024" name="entry" type="string"/>
+        <element label="Evaluation target" max_length="32" name="evaluation_target" reference="x_356576_siem_evaluation_target" type="reference"/>
+        <element choice="1" label="Logereignis" max_length="40" name="logevent" type="choice">
+            <choice/>
+        </element>
+        <element label="Nummer" max_length="48" name="number" type="string"/>
+        <index name="index">
+            <element name="assembly_group"/>
+        </index>
+        <index name="index2">
+            <element name="evaluation_target"/>
+        </index>
+    </element>
+</database>
